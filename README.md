@@ -1,3 +1,5 @@
+Code and partial explanations are provided, with more data and explanations to be organized and published after the paper is published.
+
 # Package-related test code
 osv_download - Downloads OSV
 osv_cve_build.py - Integrates specific files from OSV, used in experiments with npm and pypi
