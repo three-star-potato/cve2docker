@@ -1,5 +1,5 @@
 Code for our paper RED-Scenario: A Resource-Efficient Deployment Framework for Scenarios through Dependency Package Management
-Code and partial explanations are provided, with more data and explanations to be organized and published after the paper is published.
+Code and partial explanations are provided. For more data and explanations, please refer to our paper.
 # Abstract
 The code contains the automated processes in the paper, as well as the associated assessments
 # Usage
