@@ -3,7 +3,7 @@ import zipfile
 import os
 from tqdm import tqdm
 
-# 假设这是你需要迭代的列表
+#需要迭代的列表
 
 list_of_xxx = ['AlmaLinux','Alpine','Android','Bitnami',
 'CRAN','crates.io','Debian','GIT','GitHub Actions','Go','Hackage','Hex','Linux',
@@ -47,7 +47,7 @@ for xxx in tqdm(list_of_xxx):
             zip_ref.extractall(dirpath)
         print(f"{filename} 解压到 {dirpath} 完成。")
 
-        # 如果你不需要保留zip文件，可以删除它
+        # 不需要保留zip文件，可以删除它
         os.remove(filepath)
         print(f"{filename} 已删除。")
     else:
